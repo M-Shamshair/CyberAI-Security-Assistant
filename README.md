@@ -7,6 +7,9 @@
 **Architecture:** Security Reasoning Engine V7  
 
 ---
+![Status](https://img.shields.io/badge/Status-V1.0%20Stable-blue)
+![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline-green)
+
 
 ## 📖 Overview
 
