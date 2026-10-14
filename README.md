@@ -1,6 +1,6 @@
-# CyberAI V1 Stable
+# CyberAI Security Assistant
 
-## Local Offline Cybersecurity AI Assistant
+## Local Offline Cybersecurity AI Assistant - V1 Stable
 
 **Release Date:** 2026-10-14  
 **Version:** V1.0 Stable  
@@ -209,4 +209,15 @@ Maintained by:
 - Muhammad Shamshair
 - Last Updated: 2026-10-14
 
+---
 
+## 🔒 Source Code Access
+The core CyberAI source code, security prompts, and RAG knowledge base are maintained in a **private repository** to ensure controlled distribution and security integrity.
+This public repository contains **architecture and documentation only**.
+
+**Authorized researchers, developers, and partners** may request source access:
+1. Email: `your-email@yourdomain.com`
+2. Subject: `CyberAI Source Code Access Request`
+3. Include: Your GitHub username and intended use case
+
+Approved requesters are added as collaborators to the private repository.
