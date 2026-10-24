@@ -243,3 +243,5 @@ This public repository contains **architecture and documentation only**.
 3. Include: Your GitHub username and intended use case
 
 Approved requesters are added as collaborators to the private repository.
+
+   📄 **[System Design Document (Version 7)](docs/CyberAI_v7_SSD.pdf)**
