@@ -47,23 +47,42 @@ Unlike generic AI chatbots, CyberAI is engineered with an **Offensive Security M
 
 ## 🏗️ Current Architecture
 
-CyberAI V1 uses a modular, multi-engine architecture designed for professional security reasoning:
+CyberAI uses a modular, multi-engine architecture designed for professional security reasoning:
 
 ```text
 
-User Query
-   ↓
-[1] Intent Router & Decision Engine
-   ↓
-[2] Security Brain V7 ────→ Tool Executor (if Nmap/Tool request)
-   ↓
-[3] Prompt Engine (Combines: RAG Context + Memory + Tool Output + Consultant Persona)
-   ↓
-[4] Ollama Local LLM (Qwen2.5-Coder:3b / DeepSeek-Coder:6.7b)
-   ↓
-[5] Response Engine (Validates pentest structure, evidence, and quality)
-   ↓
-Final Professional Security Assessment
+                    User Question
+                          │
+                          ▼
+                 Intent Router
+                          │
+                          ▼
+                 Decision Engine
+                          │
+        ┌─────────────────┴──────────────────┐
+        │                                    │
+        ▼                                    ▼
+ Tool Execution Path                 Knowledge Path
+        │                                    │
+ Tool Advisor                       Security Brain
+        │                                    │
+ Tool Executor                      RAG Engine
+        │                                    │
+ Tool Output Analyzer               Memory Manager
+        │                                    │
+        └──────────────┬─────────────────────┘
+                       ▼
+             security_consultant.txt
+                       ▼
+                 Prompt Builder
+                       ▼
+                 Ollama Client
+                       ▼
+              Local DeepSeek/Qwen
+                       ▼
+               Response Engine
+                       ▼
+                  Final Report
 
 ```
 
